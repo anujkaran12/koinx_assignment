@@ -5,11 +5,11 @@ const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export const getCapitalGains = async () => {
   await delay(700);
-
+  
   return mockCapitalGains;
 };
 
 export const getHoldings = async () => {
-  await delay(2000);
+  await delay(2400);
   return mockHoldings;
 };
