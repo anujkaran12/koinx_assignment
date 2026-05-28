@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-kx-bg: var(--kx-bg);
+  --color-kx-surface: var(--kx-surface);
+  --color-kx-surface-muted: var(--kx-surface-muted);
+  --color-kx-surface-raised: var(--kx-surface-raised);
+  --color-kx-selected: var(--kx-selected);
+  --color-kx-border: var(--kx-border);
+  --color-kx-primary: var(--kx-primary);
+  --color-kx-text: var(--kx-text);
+  --color-kx-muted: var(--kx-muted);
+  --color-kx-subtle: var(--kx-subtle);
+  --color-kx-inverse: var(--kx-inverse);
+  --color-kx-inverse-text: var(--kx-inverse-text);
+  --color-kx-success: var(--kx-success);
+  --color-kx-danger: var(--kx-danger);
+  --color-kx-gradient-start: var(--kx-gradient-start);
+  --color-kx-gradient-end: var(--kx-gradient-end);
+  --color-kx-bitcoin: var(--kx-bitcoin);
+  --color-kx-ethereum: var(--kx-ethereum);
+  --color-kx-tether: var(--kx-tether);
+  --color-kx-polygon: var(--kx-polygon);
+}
+
+:root,
+[data-theme="dark"],
+.dark {
+  --kx-bg: #0a0a12;
+  --kx-surface: #171A26;
+  --kx-surface-muted: #050712;
+  --kx-surface-raised: #121d3a;
+  --kx-selected: #132348;
+  --kx-border: #303445;
+  --kx-primary: #4a78ff;
+  --kx-text: #f7f8fc;
+  --kx-muted: #9ca7be;
+  --kx-subtle: #d8deef;
+  --kx-inverse: #f7f8fc;
+  --kx-inverse-text: #191c28;
+  --kx-success: #18e9bc;
+  --kx-danger: #ff5f7b;
+  --kx-gradient-start: #3c9aff;
+  --kx-gradient-end: #0066fe;
+  --kx-bitcoin: #f7931a;
+  --kx-ethereum: #8c8f99;
+  --kx-tether: #53b79e;
+  --kx-polygon: #8247e5;
+}
+
+[data-theme="light"],
+.light {
+  --kx-bg: #f5f7fb;
+  --kx-surface: #ffffff;
+  --kx-surface-muted: #eef2f8;
+  --kx-surface-raised: #edf4ff;
+  --kx-selected: #e8f0ff;
+  --kx-border: #d8e0ee;
+  --kx-primary: #275dff;
+  --kx-text: #111827;
+  --kx-muted: #64748b;
+  --kx-subtle: #334155;
+  --kx-inverse: #111827;
+  --kx-inverse-text: #ffffff;
+  --kx-success: #079b7b;
+  --kx-danger: #dc3154;
+  --kx-gradient-start: #3c9aff;
+  --kx-gradient-end: #0066fe;
+  --kx-bitcoin: #f7931a;
+  --kx-ethereum: #686b75;
+  --kx-tether: #26967d;
+  --kx-polygon: #8247e5;
+}
+
+.kx-checkbox {
+  appearance: none;
+  border: 1px solid var(--kx-muted);
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.kx-checkbox:checked {
+  border-color: var(--kx-primary);
+  background-color: var(--kx-primary);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.5 8.2 6.5 11 12.5 5' fill='none' stroke='white' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+}
