@@ -57,12 +57,12 @@ npm run preview
 
 ## Screenshots
 
-Add your screenshots inside a `screenshots` folder in the project root.
+Add your screenshots inside `src/assets/screenshots`.
 
 Example structure:
 
 ```text
-screenshots/
+src/assets/screenshots/
   dashboard-dark.png
   dashboard-light.png
 ```
@@ -72,11 +72,13 @@ Then uncomment or update the image links below:
 <!--
 ### Dashboard - Dark Mode
 
-![Tax Harvesting Dashboard - Dark Mode](./screenshots/dashboard-dark.png)
+![Tax Harvesting Dashboard - Dark Mode]
+(./src/assets/screenshots/ss-1.png)
+(./src/assets/screenshots/ss-2.png)(./src/assets/screenshots/ss-3.png)(./src/assets/screenshots/ss-4.png)(./src/assets/screenshots/ss-5.png)(./src/assets/screenshots/ss-6.png)
 
 ### Dashboard - Light Mode
 
-![Tax Harvesting Dashboard - Light Mode](./screenshots/dashboard-light.png)
+![Tax Harvesting Dashboard - Light Mode](./src/assets/screenshots/ssL-1.png)
 -->
 
 ## Assumptions
