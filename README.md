@@ -67,19 +67,23 @@ src/assets/screenshots/
   dashboard-light.png
 ```
 
-Then uncomment or update the image links below:
-
-<!--
 ### Dashboard - Dark Mode
 
-![Tax Harvesting Dashboard - Dark Mode]
-(./src/assets/screenshots/ss-1.png)
-(./src/assets/screenshots/ss-2.png)(./src/assets/screenshots/ss-3.png)(./src/assets/screenshots/ss-4.png)(./src/assets/screenshots/ss-5.png)(./src/assets/screenshots/ss-6.png)
+![Tax Harvesting Dashboard - Dark Mode 1](./src/assets/screenshots/ss-1.png)
+
+![Tax Harvesting Dashboard - Dark Mode 2](./src/assets/screenshots/ss-2.png)
+
+![Tax Harvesting Dashboard - Dark Mode 3](./src/assets/screenshots/ss-3.png)
+
+![Tax Harvesting Dashboard - Dark Mode 4](./src/assets/screenshots/ss-4.png)
+
+![Tax Harvesting Dashboard - Dark Mode 5](./src/assets/screenshots/ss-5.png)
+
+![Tax Harvesting Dashboard - Dark Mode 6](./src/assets/screenshots/ss-6.png)
 
 ### Dashboard - Light Mode
 
 ![Tax Harvesting Dashboard - Light Mode](./src/assets/screenshots/ssL-1.png)
--->
 
 ## Assumptions
 
